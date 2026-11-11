@@ -9,6 +9,14 @@ public class PrioridadIncidencia {
         System.out.print("Nivel de urgencia (1-BAJA, 2-MEDIA, 3-ALTA): ");
         int nivelUrgencia = teclado.nextInt();
 
-        System.out.println("Nivel introducido: " + nivelUrgencia);
+        if (nivelUrgencia == 1) {
+            System.out.println("Prioridad asignada: BAJA");
+        } else if (nivelUrgencia == 2) {
+            System.out.println("Prioridad asignada: MEDIA");
+        } else if (nivelUrgencia == 3) {
+            System.out.println("Prioridad asignada: ALTA");
+        } else {
+            System.out.println("Nivel de urgencia no válido");
+        }
     }
 }

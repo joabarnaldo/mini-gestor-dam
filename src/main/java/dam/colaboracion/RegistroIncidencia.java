@@ -12,6 +12,6 @@
            System.out.print("Descripción breve: ");
            String descripcion = teclado.nextLine();
 
-           System.out.println("Incidencia registrada: " + titulo);
+           System.out.println("Incidencia registrada: " + titulo + " - " + descripcion);
        }
    }
